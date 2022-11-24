@@ -1,9 +1,8 @@
-describe("Sumador", () => {
-  it("Shows the amount of the addition to the user", () => {
+describe("SITIO WEB DE TWITTER", () => {
+  it("Deberia publicar el post en la lista y visualizarlo", () => {
     cy.visit("/");
-    cy.get("#primer-numero").type(4);
-    cy.get("#segundo-numero").type(5);
-    cy.get("#sumar-button").click();
-    cy.get("#resultado-div").should("contain", "9");
+    cy.get("#texto").type("'Hola mundo'");
+    cy.get("#button").click();
+    cy.get("#publicacion-div").should("contain", "'Hola mundo'");
   });
 });
