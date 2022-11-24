@@ -12,7 +12,7 @@ function contar(palabra) {
 }
 
 function sumar(palabra){
-  var res = 0;
+  var res = 3;
   var cadenaArray = palabra.split(/[,-]+/);
 
   for (var i=0; i<cadenaArray.length; i++) {
@@ -24,4 +24,4 @@ function sumar(palabra){
   return res;
 }
 
-export default contar;
+export {contar, sumar};

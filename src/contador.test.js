@@ -1,4 +1,4 @@
-import contar from "./contador.js";
+import {contar, sumar} from "./contador.js";
 
 describe("CONTADOR VACIO", () => {
   it("deberia retornar 0 si no hay palabra", () => {
@@ -11,9 +11,9 @@ describe("CONTADOR DE 1 LETRA", () => {
     expect(contar("a")).toEqual(1);
   });
 });
-/*
+
 describe("CONTADOR DE CADENA", () => {
   it("deberia retornar 3 de dicha cadena de letra a", () => {
-    expect(contar("palabra")).toEqual(3);
+    expect(sumar("palabra")).toEqual(3);
   });
-});*/
+});
