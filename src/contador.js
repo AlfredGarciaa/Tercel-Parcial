@@ -1,6 +1,9 @@
 function contar(palabra) {
-  
-  return 0
+  let vacio = " ";
+  if(palabra == vacio){
+    return 0
+  }
+  return 1;
 }
 
 export default contar;
