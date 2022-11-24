@@ -1,4 +1,4 @@
-const texto = document.querySelector("#mensaje");
+const texto = document.querySelector("#texto");
 const post = document.querySelector("#post-form");
 const publicacion = document.querySelector("#publicacion-div");
 
