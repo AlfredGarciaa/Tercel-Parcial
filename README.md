@@ -14,4 +14,6 @@ Ejecutar pruebas de unidad solo una vez:
 npm run test-once
 
 #### Examen:
-Ejercicio 1
+Ejercicio 1 (TERMINADO CON EXITO Y PRUEBA CYPRESS EN VERDE).
+
+Ejercicio 2
