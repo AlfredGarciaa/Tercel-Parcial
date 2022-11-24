@@ -1,7 +1,7 @@
-import sumar from "./sumador.js";
+import contar from "./contador.js";
 
 describe("CONTADOR VACIO", () => {
   it("deberia retornar 0 si no hay palabra", () => {
-    expect(sumar(" ")).toEqual(0);
+    expect(contar(" ")).toEqual(0);
   });
 });
