@@ -17,3 +17,6 @@ describe("CONTADOR DE CADENA", () => {
     expect(sumar("palabra")).toEqual(3);
   });
 });
+
+
+///// PRUEBAS DE FUSION ENTRE RAMAS \\\\\
