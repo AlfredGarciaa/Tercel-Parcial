@@ -18,9 +18,4 @@ describe("CONTADOR DE CADENA", () => {
   });
 });
 
-
-
-
-
-
-/////// HOLA MUNDO
+\\Hola
